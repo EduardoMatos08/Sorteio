@@ -146,4 +146,8 @@ button:active {
         font-weight: 600;
     }
 
+    button:hover {
+        background-color: none;
+    }
+
 }
