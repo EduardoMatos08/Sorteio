@@ -1,0 +1,149 @@
+* {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+html {
+    background-color: #000000;
+}
+
+head {
+    display: none;
+}
+
+script {
+    display: none;
+}
+
+#wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+#logo-and-title {
+    display: flex;
+    justify-content: center;
+    justify-items: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    margin: 4% auto;
+    height: 250px;
+    width: 250px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+section {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#div-for-inputs {
+    display: inline;
+    margin-bottom: 1%;
+}
+
+input {
+    color: #7d7d7d;
+    font-weight: 700;
+    padding: 15px;
+    font-size: 20px;
+    width: 342px;
+    height: 74px;
+    border-radius: 14px;
+    border: 1px solid #ffffff33;
+    background: #ffffff40;
+}
+
+#left-input {
+    margin-right: 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+button {
+    width: 342px;
+    height: 74px;
+    border: none;
+    border-radius: 10px;
+    background: #AEC346;
+    box-shadow: 0px 18px 40px 0px #aec34659;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #859535;
+    box-shadow: 0px 18px 40px 0px #717f2c59;
+}
+
+button:active {
+    background: #677329;
+    box-shadow: 0px 18px 40px 0px #55602159;
+}
+
+@media screen and (max-width: 715px) {
+    
+    #logo-and-title {
+        width: 100vw;
+    }
+
+    section {
+        width: 100vw;
+    }
+
+    #div-for-inputs {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    input {
+        margin-bottom: 10px;
+        color: #7d7d7d;
+        font-weight: 700;
+        padding: 15px;
+        font-size: 20px;
+        width: auto;
+        height: 74px;
+        border-radius: 14px;
+        border: 1px solid #ffffff33;
+        background: #ffffff40;
+    }
+
+    #left-input {
+        margin-right: 0;
+    }
+
+    button {
+        width: 250px;
+        height: 74px;
+        border: none;
+        border-radius: 10px;
+        background: #AEC346;
+        box-shadow: 0px 18px 40px 0px #aec34659;
+        color: #ffffff;
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+}
