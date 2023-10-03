@@ -7,11 +7,11 @@ function randomizerNumber(){
         alert("O valor máximo tem de ser MAIOR que o valor mínimo...")
     }
 
-    if(numMax == numMin){
+    else if(numMax == numMin){
         alert("Os números precisam ser diferentes...")
     }
 
-    if(numMax == "" || numMin == ""){
+    else if(numMax == "" || numMin == ""){
         alert("Para sortear é preciso digitar um número...")
     }
 
