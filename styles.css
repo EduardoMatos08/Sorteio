@@ -89,13 +89,11 @@ button {
 }
 
 button:hover {
-    background: #859535;
-    box-shadow: 0px 18px 40px 0px #717f2c59;
+    opacity: 0.8;
 }
 
 button:active {
-    background: #677329;
-    box-shadow: 0px 18px 40px 0px #55602159;
+    opacity: 0.7;
 }
 
 @media screen and (max-width: 715px) {
@@ -160,7 +158,11 @@ button:active {
     }
 
     button:hover {
-        background-color: none;
+        opacity: 1;
+    }
+
+    button:active {
+        opacity: 0.7;
     }
 
 }
