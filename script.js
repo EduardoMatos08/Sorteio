@@ -21,3 +21,5 @@ function randomizerNumber(){
     }
 
 }
+
+button.addEventListener("click", randomizerNumber)
