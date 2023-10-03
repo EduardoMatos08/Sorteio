@@ -11,7 +11,7 @@ function randomizerNumber(){
         alert("Os números precisam ser diferentes...")
     }
 
-    if(numMax == "" && numMin == ""){
+    if(numMax == "" || numMin == ""){
         alert("Para sortear é preciso digitar um número...")
     }
 
