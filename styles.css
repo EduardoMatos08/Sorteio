@@ -32,7 +32,7 @@ script {
 }
 
 img {
-    margin: 4% auto;
+    margin: 0 auto 4% auto;
     height: 250px;
     width: 250px;
 }
