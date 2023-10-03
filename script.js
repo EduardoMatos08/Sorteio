@@ -7,10 +7,6 @@ function randomizerNumber(){
         alert('O valor máximo tem de ser MAIOR que o valor mínimo...')
     }
 
-    if(numMin === "" or numMax === ""){
-        alert("Para sortear você precisa digitar um número...")
-}
-
     else {
         const randomizedNum = Math.floor(Math.random() * (numMax - numMin) + numMin)
         alert(`O número ${randomizedNum} foi sorteado!`)
